@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(to right,grey,rgb(224, 195, 29));
+}
+#cont1{
+    width: 1140px;
+    height: 300px;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+#img{
+    width: 1140px;
+    height: 300px;
+    border-radius: 20px;
+}
+#text{
+    color: white;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    top: -260px;
+    left: 380px;
+}
+#down{
+    margin-left: 10px;
+    text-decoration: none;
+    color: blue;
+    font-size: 30px;
+}
+.responsive {
+    max-width: 75%;
+    height: auto;
+}
+
+img {
+    padding: 15px;
+}
+
+.displayBox {
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.scroll-box {
+    overflow-y: auto;
+    height: 500px;
+    float: left;
+    padding: 1rem;
+}
